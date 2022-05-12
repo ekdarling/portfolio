@@ -6,11 +6,7 @@ body {
 .hero {
   color: white;
   padding: 150px 125px;
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(0, 0, 0) 0%,
-    rgb(64, 64, 64) 90.2%
-  );
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
   font-family: nanum gothic, sans-serif;
   margin: 100px 200px;
 }
