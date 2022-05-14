@@ -1,12 +1,60 @@
 :root {
   --primary-color: black;
+  --font-family: nanum gothic, sans-serif;
+  --secondary-color: #212529;
 }
-body {
+.body {
+  background-color: #eeeeee;
 }
-.hero {
-  color: white;
-  padding: 150px 125px;
-  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+
+#hero {
+  padding: 32px, 112px, 112px;
+  margin: 50px 162px 100px 600px;
   font-family: nanum gothic, sans-serif;
-  margin: 100px 200px;
+  border-radius: 32px;
+  max-height: fit-content;
+  max-width: 50%;
+  background-color: #dfdfdf;
+}
+#name-title {
+  margin: 75px 50px 10px;
+  font-family: var(--font-family);
+  font-size: 75px;
+  max-height: fit-content;
+  color: #393e46;
+}
+#name {
+  margin: 0px auto;
+  padding: 0;
+}
+#title {
+  color: #929aab;
+  padding: 0;
+}
+#navigation {
+  margin: 32px 50px;
+  padding: 25px;
+  font-family: var(--font-family);
+  color: black;
+  font-size: 40px;
+}
+a {
+  color: #393e46;
+
+  border-radius: 32px;
+  padding: 10px 20px;
+  font-family: var(--font-family);
+}
+.link {
+  color: #393e46;
+  text-decoration: none;
+}
+.col {
+  padding: 5px 10px;
+  margin: 15px auto;
+  justify-content: space-evenly;
+  font: var(--font-family);
+}
+.photo-card {
+  font-family: var(--font-family);
 }
