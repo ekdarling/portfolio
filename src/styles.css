@@ -9,10 +9,9 @@
 
 #hero {
   padding: 32px, 112px, 112px;
-  margin: 300px 0px 0px 5px;
+  margin: 400px 0px 0px 5px;
   font-family: nanum gothic, sans-serif;
-  border-radius: 32px;
-  max-height: fit-content;
+  border-radius: 32px
   max-width: 50%;
   background-color: #dfdfdf;
 }
@@ -21,9 +20,11 @@
   font-size: 75px;
   max-height: fit-content;
   color: #393e46;
+  margin: 10px 40px;
 }
 #secondary-content{
   padding: 32px, 112px, 112px;
+  margin: 0px 40px;
   font-family: nanum gothic, sans-serif;
   border-radius: 32px;
   max-height: fit-content;
@@ -80,6 +81,7 @@ p{
   justify-content: space-evenly;
   font: var(--font-family);
 }
-img {
+.family {
   max-height: 400px;
 }
+
