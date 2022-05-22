@@ -49,6 +49,10 @@ h2 {
   color: #
   font-size: 40px;
 }
+h3{
+  padding: 25px;
+  font-family: var(--font-family);
+}
 a {
   color: #393e46;
   border-radius: 32px;
