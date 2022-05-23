@@ -104,7 +104,8 @@ p{
   font-weight: 900;
 }
 .btn:hover{
-  background-color: #eeeeee;
+  background-color: #dfdfdf;
+  transition: all 200ms ease-in-out;
 }
 
 .col {
@@ -116,4 +117,25 @@ p{
 .family {
   max-height: 400px;
 }
+footer .email-link{
+  padding: 10px 40px;
+  font-family: nanum gothic, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  
+    
+}
+footer .email-link:hover,
+footer a:hover{
+  color: #212529;
+  background-color: #929aab;
+  transition: all 200ms ease-in-out;
 
+}
+footer .social-media-links{
+  font-size: 25px;
+  color: #212529;
+  background-color: #dfdfdf;
+  padding: 5px;
+  
+}
