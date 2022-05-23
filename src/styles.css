@@ -6,13 +6,13 @@
 .body {
   background-color: #eeeeee;
 }
-.navigation-bar{
-  margin: 0 ;
+.navigation-bar {
+  margin: 0;
   padding: 0;
   background-color: #dfdfdf;
   max-width: 100%;
 }
-nav ul{
+nav ul {
   padding: 5px 10px;
   margin: 0px 10px;
 }
@@ -26,9 +26,8 @@ nav li {
   font-size: 20px;
   font-weight: 400;
 }
-li a{
+li a {
   text-decoration: none;
-  
 }
 .logo {
   font-size: 50px;
@@ -51,7 +50,7 @@ li a{
   color: #393e46;
   margin: 10px 40px;
 }
-#secondary-content{
+#secondary-content {
   padding: 32px, 112px, 112px;
   margin: 0px 40px;
   font-family: nanum gothic, sans-serif;
@@ -75,12 +74,20 @@ h2 {
   margin: 32px 50px 0px;
   padding: 25px;
   font-family: var(--font-family);
-  color: #
-  font-size: 40px;
+  color: #;
+  font-size: 30px;
 }
-h3{
+h3 {
   padding: 25px;
   font-family: var(--font-family);
+  font-weight: 400;
+}
+h5 {
+  font-size: 15px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  padding-left: 10px;
+  text-align: right;
 }
 a {
   color: #393e46;
@@ -88,10 +95,14 @@ a {
   padding: 10px 20px;
   font-family: var(--font-family);
 }
-p{ 
+.github-link {
+  margin: 0;
+  padding: 0;
+}
+p {
   margin: 10px;
 }
-.btn  {
+.btn {
   display: inline-block;
   color: #393e46;
   text-decoration: none;
@@ -104,7 +115,7 @@ p{
   font-size: 20px;
   font-weight: 900;
 }
-.btn:hover{
+.btn:hover {
   background-color: #dfdfdf;
   transition: all 200ms ease-in-out;
 }
@@ -118,28 +129,24 @@ p{
 .family {
   max-height: 400px;
 }
-.active{
+.active {
   font-weight: 900;
 }
-footer .email-link{
+footer .email-link {
   padding: 10px 40px;
   font-family: nanum gothic, sans-serif;
   font-weight: 400;
   font-size: 20px;
-  
-    
 }
 footer .email-link:hover,
-footer a:hover{
+footer a:hover {
   color: #212529;
   background-color: #929aab;
   transition: all 200ms ease-in-out;
-
 }
-footer .social-media-links{
+footer .social-media-links {
   font-size: 25px;
   color: #212529;
   background-color: #dfdfdf;
   padding: 5px;
-  
 }
