@@ -143,6 +143,7 @@ footer a:hover {
   color: #212529;
   background-color: #929aab;
   transition: all 200ms ease-in-out;
+  color: #eeeeee;
 }
 footer .social-media-links {
   font-size: 25px;
